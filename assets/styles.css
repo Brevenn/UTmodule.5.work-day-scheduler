@@ -1,10 +1,13 @@
 /* body main styling */
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 1;
 }
+
 /* jumbotron main styling */
+
 .jumbotron {
     font-weight: bold;
     font: italic;
@@ -13,4 +16,41 @@ body {
     color: black;
     border-radius: 0;
     border-bottom: 30px solid navy;
+}
+
+/* textarea main styling (criteria entered into the time slots) */
+
+textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgb(46, 45, 45);
+    padding: 10px;
+}
+
+.info {
+    white-space: pre-wrap;
+}
+
+.time-block {
+    text-align: center;
+    border-radius: 15px;
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid gray;
+}
+
+.hour {
+    background-color:#ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+}
+
+.past {
+    background-color: #d3d3d3;
+    color: #ffffff;
 }
