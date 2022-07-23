@@ -1,0 +1,16 @@
+/* body main styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1;
+}
+/* jumbotron main styling */
+.jumbotron {
+    font-weight: bold;
+    font: italic;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 30px solid navy;
+}
