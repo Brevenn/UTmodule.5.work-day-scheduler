@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1;
 }
 
@@ -24,8 +24,8 @@ textarea {
     background: transparent;
     border: none;
     resize: none;
-    border-radius: 0;
-    border-bottom: 1px solid rgb(46, 45, 45);
+    color: #000000;
+    border-bottom: 1px solid black;
     padding: 10px;
 }
 
@@ -41,16 +41,45 @@ textarea {
 .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: 1px solid gray;
+    border-top: 1px solid #ffffff;
 }
 
 .hour {
     background-color:#ffffff;
     color: #000000;
-    border-top: 1px dashed #000000;
+    border: 1px dashed #000000;
 }
 
 .past {
-    background-color: #d3d3d3;
+    background-color: #393737;
     color: #ffffff;
+}
+
+.future {
+    background-color: #244e24;
+    color: #ffffff;
+}
+
+.present {
+    background-color: #8f241e;
+    color: #ffffff;
+}
+
+/* Save Button main styling */
+
+.saveBtn {
+    border-left: 1px solid #000000;
+    background-color: purple;
+    color: #ffffff;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.saveBtn i:hover {
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+}
+
+.col-md-10 {
+    scale: 100%;
 }
