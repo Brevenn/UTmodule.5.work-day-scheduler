@@ -18,9 +18,17 @@ body {
     border-bottom: 30px solid navy;
 }
 
+.jumbotron .jumbotron-wd-text {
+    font-weight: bold;
+}
+
+.jumbotron-wd-text p {
+    font-size: 15px;
+}
 /* textarea main styling (criteria entered into the time slots) */
 
 textarea {
+    background-color: #393737;
     background: transparent;
     border: none;
     resize: none;
@@ -29,7 +37,7 @@ textarea {
     padding: 10px;
 }
 
-.info {
+.description {
     white-space: pre-wrap;
 }
 
@@ -45,9 +53,13 @@ textarea {
 }
 
 .hour {
-    background-color:#ffffff;
+    justify-content: center;
+    text-align: center;
+    background-color:gray;
     color: #000000;
     border: 1px dashed #000000;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 10px;
 }
 
 .past {
@@ -67,10 +79,10 @@ textarea {
 
 /* Save Button main styling */
 
-.saveBtn {
+.saveBtn button {
     border-left: 1px solid #000000;
-    background-color: purple;
-    color: #ffffff;
+    background-color: lightblue;
+    color: navy;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
 }
@@ -82,4 +94,10 @@ textarea {
 
 .col-md-10 {
     scale: 100%;
+    background-color: lightgrey;
+}
+
+button .btn .saveBtn .col-md-1 {
+    scale: 100%;
+    background-color: navy;
 }
