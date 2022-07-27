@@ -13,9 +13,9 @@ body {
     font: italic;
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: navy;
     border-radius: 0;
-    border-bottom: 30px solid navy;
+    border-bottom: 30px solid yellow;
 }
 
 .jumbotron .jumbotron-wd-text {
